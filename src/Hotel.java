@@ -5,7 +5,7 @@ import java.util.HashSet;
 public class Hotel {
 
     ArrayList<Room> rooms;
-    HashMap<Reservation, Client> clientRes;
+    HashMap<Reservation, Client> clientRes; //do we still need the hashet and arraylist then?
     HashSet<Reservation> reservations;
     ArrayList<Client> clients;
 
