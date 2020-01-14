@@ -1,23 +1,29 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by Fernflower decompiler)
+//
+
 import java.util.ArrayList;
 
-public class Client implements Revenue{
+public class Client implements Revenue {
     String clientName;
-    String dateOfBirth; //need to change this in class diagram
+    String dateOfBirth;
     String address;
     ArrayList<Reservation> reservations;
 
-    public Client(String clientName, String dateOfBirth, String address){
-    this.clientName = clientName;
-    this.dateOfBirth = dateOfBirth;
-    this.address = address;
-    reservations = new ArrayList<Reservation>();
+    public Client(String clientName, String dateOfBirth, String address) {
+        this.clientName = clientName;
+        this.dateOfBirth = dateOfBirth;
+        this.address = address;
+        this.reservations = new ArrayList();
     }
 
-    public void addReservation(Reservation newReservation){
-        reservations.add(newReservation);
+    public void addReservation(Reservation newReservation) {
+        this.reservations.add(newReservation);
     }
+
     public String getClientName() {
-        return clientName;
+        return this.clientName;
     }
 
     public void setClientName(String clientName) {
@@ -25,7 +31,7 @@ public class Client implements Revenue{
     }
 
     public String getDateOfBirth() {
-        return dateOfBirth;
+        return this.dateOfBirth;
     }
 
     public void setDateOfBirth(String dateOfBirth) {
@@ -33,15 +39,14 @@ public class Client implements Revenue{
     }
 
     public String getAddress() {
-        return address;
+        return this.address;
     }
 
     public void setAddress(String address) {
         this.address = address;
     }
 
-    @Override
     public double getRevenue() {
-        return 0;
+        return 0.0D;
     }
 }

@@ -1,3 +1,8 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by Fernflower decompiler)
+//
+
 abstract class Room implements Revenue {
     int maxCapacity;
     float size;
@@ -5,9 +10,7 @@ abstract class Room implements Revenue {
     int roomNum;
     double pricePerNight;
 
-
-    public Room(int maxCapacity, float size, boolean available, int roomNum, double pricePerNight){
-
+    public Room(int maxCapacity, float size, boolean available, int roomNum, double pricePerNight) {
         this.maxCapacity = maxCapacity;
         this.size = size;
         this.available = available;
@@ -16,7 +19,7 @@ abstract class Room implements Revenue {
     }
 
     public int getMaxCapacity() {
-        return maxCapacity;
+        return this.maxCapacity;
     }
 
     public void setMaxCapacity(int maxCapacity) {
@@ -24,7 +27,7 @@ abstract class Room implements Revenue {
     }
 
     public float getSize() {
-        return size;
+        return this.size;
     }
 
     public void setSize(float size) {
@@ -32,7 +35,7 @@ abstract class Room implements Revenue {
     }
 
     public boolean isAvailable() {
-        return available;
+        return this.available;
     }
 
     public void setAvailable(boolean available) {
@@ -40,7 +43,7 @@ abstract class Room implements Revenue {
     }
 
     public int getRoomNum() {
-        return roomNum;
+        return this.roomNum;
     }
 
     public void setRoomNum(int roomNum) {
@@ -48,11 +51,10 @@ abstract class Room implements Revenue {
     }
 
     public double getPricePerNight() {
-        return pricePerNight;
+        return this.pricePerNight;
     }
 
     public void setPricePerNight(double pricePerNight) {
         this.pricePerNight = pricePerNight;
     }
-
 }

@@ -1,6 +1,12 @@
-import java.util.ArrayList;
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by Fernflower decompiler)
+//
 
-public class Reservation implements Revenue{
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Reservation implements Revenue {
     int reservationNum;
     String startDate;
     String endDate;
@@ -10,20 +16,29 @@ public class Reservation implements Revenue{
     int noOfAdults;
     int noOfChildren;
 
-    public Reservation(int reservationNum, String startDate, String endDate, boolean breakfast, boolean insurance, int noOfAdults, int noOfChildren){
+    public Reservation(int reservationNum, String startDate, ArrayList<Room> rooms, String endDate, boolean breakfast, boolean insurance, int noOfAdults, int noOfChildren) throws RoomError {
         this.reservationNum = reservationNum;
         this.startDate = startDate;
         this.endDate = endDate;
         this.breakfast = breakfast;
         this.insurance = insurance;
-        rooms = new ArrayList<Room>();
+        this.rooms = rooms;
         this.noOfAdults = noOfAdults;
         this.noOfChildren = noOfChildren;
+        int totalCapacity = 0;
 
+        Room r;
+        for(Iterator var10 = rooms.iterator(); var10.hasNext(); totalCapacity += r.getMaxCapacity()) {
+            r = (Room)var10.next();
+        }
+
+        if (totalCapacity < this.noOfAdults + this.noOfChildren) {
+            throw new RoomError("Too many people for the amount of rooms. Please add more rooms.");
+        }
     }
 
     public int getReservationNum() {
-        return reservationNum;
+        return this.reservationNum;
     }
 
     public void setReservationNum(int reservationNum) {
@@ -31,7 +46,7 @@ public class Reservation implements Revenue{
     }
 
     public String getStartDate() {
-        return startDate;
+        return this.startDate;
     }
 
     public void setStartDate(String startDate) {
@@ -39,7 +54,7 @@ public class Reservation implements Revenue{
     }
 
     public String getEndDate() {
-        return endDate;
+        return this.endDate;
     }
 
     public void setEndDate(String endDate) {
@@ -47,7 +62,7 @@ public class Reservation implements Revenue{
     }
 
     public boolean isBreakfast() {
-        return breakfast;
+        return this.breakfast;
     }
 
     public void setBreakfast(boolean breakfast) {
@@ -55,7 +70,7 @@ public class Reservation implements Revenue{
     }
 
     public boolean isInsurance() {
-        return insurance;
+        return this.insurance;
     }
 
     public void setInsurance(boolean insurance) {
@@ -63,7 +78,7 @@ public class Reservation implements Revenue{
     }
 
     public int getNoOfAdults() {
-        return noOfAdults;
+        return this.noOfAdults;
     }
 
     public void setNoOfAdults(int noOfAdults) {
@@ -71,15 +86,14 @@ public class Reservation implements Revenue{
     }
 
     public int getNoOfChildren() {
-        return noOfChildren;
+        return this.noOfChildren;
     }
 
     public void setNoOfChildren(int noOfChildren) {
         this.noOfChildren = noOfChildren;
     }
 
-    @Override
     public double getRevenue() {
-        return 0;
+        return 0.0D;
     }
 }
