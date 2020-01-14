@@ -9,7 +9,6 @@ import java.util.HashSet;
 
 public class Hotel {
     ArrayList<Room> rooms = new ArrayList();
-    HashMap<Reservation, Client> clientRes;
     HashSet<Reservation> reservations = new HashSet();
     ArrayList<Client> clients = new ArrayList();
 

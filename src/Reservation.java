@@ -11,14 +11,16 @@ public class Reservation implements Revenue {
     String startDate;
     String endDate;
     boolean breakfast;
+    Client client;
     boolean insurance;
     ArrayList<Room> rooms;
     int noOfAdults;
     int noOfChildren;
 
-    public Reservation(int reservationNum, String startDate, ArrayList<Room> rooms, String endDate, boolean breakfast, boolean insurance, int noOfAdults, int noOfChildren) throws RoomError {
+    public Reservation(int reservationNum, Client client, String startDate, ArrayList<Room> rooms, String endDate, boolean breakfast, boolean insurance, int noOfAdults, int noOfChildren) throws RoomError {
         this.reservationNum = reservationNum;
         this.startDate = startDate;
+        this.client = client;
         this.endDate = endDate;
         this.breakfast = breakfast;
         this.insurance = insurance;
