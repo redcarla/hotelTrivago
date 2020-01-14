@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcf611c6-3e45-4a48-aad1-0c97ede7dc46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Hotel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Reservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Reservation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/program.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HotelTrivago1/HotelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/HotelTrivago1/HotelTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reservation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ClientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/HotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/HotelTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

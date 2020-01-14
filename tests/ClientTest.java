@@ -1,38 +1,40 @@
 package tests;
 
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class ClientTest {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void addReservation() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void getClientName() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void setClientName() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void getDateOfBirth() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void setDateOfBirth() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void getAddress() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void setAddress() {
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void getRevenue() {
     }
 }

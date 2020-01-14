@@ -8,7 +8,7 @@ class HotelTest {
     Hotel hotel1 = new Hotel();
     Client client1 = new Client("Ramon Brakels", "17-11-1997", "Bolsterlaand 23, 7876GA Valthermond");
     Room lux = new Luxury(2,2,false,23,99.00);
-    
+
 
     @Test
     void getTotalCapacity()  {
