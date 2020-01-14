@@ -6,6 +6,7 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
 
 public class Hotel {
     ArrayList<Room> rooms = new ArrayList();
@@ -16,8 +17,14 @@ public class Hotel {
     }
 
     public int getTotalCapacity() {
-        return 0;
+        Room r;
+        int totalCapacity = 0;
+        for (Iterator iterator1 = rooms.iterator(); iterator1.hasNext(); totalCapacity += r.getMaxCapacity()) {
+            r = (Room) iterator1.next();
+        }
+        return totalCapacity;
     }
+
 
     public void addRoom(Room newRoom) {
         this.rooms.add(newRoom);

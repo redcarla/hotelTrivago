@@ -30,8 +30,8 @@ public class Reservation implements Revenue {
         int totalCapacity = 0;
 
         Room r;
-        for(Iterator var10 = rooms.iterator(); var10.hasNext(); totalCapacity += r.getMaxCapacity()) {
-            r = (Room)var10.next();
+        for(Iterator iterator1 = rooms.iterator(); iterator1.hasNext(); totalCapacity += r.getMaxCapacity()) {
+            r = (Room)iterator1.next();
         }
 
         if (totalCapacity < this.noOfAdults + this.noOfChildren) {

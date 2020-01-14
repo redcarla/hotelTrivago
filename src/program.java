@@ -18,11 +18,11 @@ public class program {
         rooms.add(b);
         rooms.add(c);
 
-        try {
-            new Reservation(1, "11-11-2020", rooms, "11-12-2020", false, true, 5, 0);
-        } catch (RoomError var4) {
-            System.out.println(var4.getMessage());
-        }
+        //try {
+         //   new Reservation(1, "11-11-2020", rooms, "11-12-2020", false, true, 5, 0);
+        //} catch (RoomError var4) {
+         //   System.out.println(var4.getMessage());
+        //}
 
     }
 }
