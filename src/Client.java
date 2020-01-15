@@ -46,6 +46,8 @@ public class Client implements Revenue {
         this.address = address;
     }
 
+
+
     public double getRevenue() {
         return 0.0D;
     }

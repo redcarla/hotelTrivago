@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class HotelTest {
     Hotel hotel1 = new Hotel();
-    Client client1 = new Client("Ramon Brakels", "17-11-1997", "Bolsterlaand 23, 7876GA Valthermond");
+    Client client1 = new Client("Ramon Brakels", "17-11-1997", "Bolsterlaan 23, 7876GA Valthermond");
     Room lux = new Luxury(2,2,false,23,99.00);
 
 
@@ -14,7 +14,6 @@ class HotelTest {
     void getTotalCapacity()  {
         hotel1.addRoom(lux);
         assertEquals(hotel1.getTotalCapacity(), 2);
-
     }
 
     @Test
@@ -25,15 +24,6 @@ class HotelTest {
         assertEquals(rooms, hotel1.rooms);
     }
 
-    @Test
-    void addReservation() throws RoomError {
-        hotel1.addRoom(lux);
-        Reservation res1 = new Reservation(1,client1,
-                "12-01-2020", hotel1.rooms,"14-01-2020",
-                false, true,1,0);
-        hotel1.addReservation(res1);
-
-    }
 
     @Test
     void addClient() {
@@ -47,7 +37,7 @@ class HotelTest {
     void tooManyPeopleError() throws RoomError{
         hotel1.addRoom(lux);
         try {
-            Reservation res1 = new Reservation(1, client1,
+            Reservation res1 = new Reservation(1,
                     "12-01-2020", hotel1.rooms, "14-01-2020",
                     false, true, 5, 0);
         } catch(RoomError err){

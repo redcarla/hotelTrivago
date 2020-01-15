@@ -10,7 +10,6 @@ import java.util.Iterator;
 
 public class Hotel {
     ArrayList<Room> rooms = new ArrayList();
-    HashSet<Reservation> reservations = new HashSet();
     ArrayList<Client> clients = new ArrayList();
 
     public Hotel() {
@@ -30,9 +29,6 @@ public class Hotel {
         this.rooms.add(newRoom);
     }
 
-    public void addReservation(Reservation newReservation) {
-        this.reservations.add(newReservation);
-    }
 
     public void addClient(Client newClient) {
         this.clients.add(newClient);
