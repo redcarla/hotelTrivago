@@ -47,11 +47,18 @@ class RoomTest {
 
 
     @Test
-    void isAvailable() {
-    }
-
-    @Test
     void setAvailable() {
+        lux.setAvailable(false);
+        delux.setAvailable(true);
+        honeymoon.setAvailable(false);
+        presidential.setAvailable(true);
+        standard.setAvailable(false);
+
+        assertEquals(false,lux.isAvailable());
+        assertEquals(true,delux.isAvailable());
+        assertEquals(false,honeymoon.isAvailable());
+        assertEquals(true,presidential.isAvailable());
+        assertEquals(false,standard.isAvailable());
     }
 
     @Test
@@ -60,6 +67,17 @@ class RoomTest {
 
     @Test
     void setRoomNum() {
+        lux.setRoomNum(2);
+        delux.setRoomNum(4);
+        honeymoon.setRoomNum(6);
+        presidential.setRoomNum(7);
+        standard.setRoomNum(8);
+
+        assertEquals(2,lux.getRoomNum());
+        assertEquals(4,delux.getRoomNum());
+        assertEquals(6,honeymoon.getRoomNum());
+        assertEquals(7,presidential.getRoomNum());
+        assertEquals(8,standard.getRoomNum());
     }
 
     @Test
@@ -68,5 +86,16 @@ class RoomTest {
 
     @Test
     void setPricePerNight() {
+        lux.setPricePerNight(200.0);
+        delux.setPricePerNight(150.0);
+        honeymoon.setPricePerNight(280.0);
+        presidential.setPricePerNight(500.0);
+        standard.setPricePerNight(100.0);
+
+        assertEquals(200.0,lux.getPricePerNight());
+        assertEquals(150.0,delux.getPricePerNight());
+        assertEquals(280.0,honeymoon.getPricePerNight());
+        assertEquals(500.0,presidential.getPricePerNight());
+        assertEquals(100.0,standard.getPricePerNight());
     }
 }

@@ -3,19 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dcf611c6-3e45-4a48-aad1-0c97ede7dc46" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Hotel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Reservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Reservation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HotelTrivago1/HotelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/HotelTrivago1/HotelTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HotelTrivago1/ReservationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/HotelTrivago1/ReservationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HotelTrivago1/RoomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/HotelTrivago1/RoomTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HotelTrivago1/tests/ClientTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reservation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/HotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/HotelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ReservationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ReservationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/RoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/RoomTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,7 +67,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RoomTest.getSize">
+  <component name="RunManager" selected="JUnit.All in HotelTrivago1">
+    <configuration name="All in HotelTrivago1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HotelTrivago1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HotelTrivago1" />
       <option name="PACKAGE_NAME" value="" />
@@ -90,19 +85,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HotelTrivago1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HotelTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReservationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HotelTrivago1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ReservationTest" />
+      <option name="MAIN_CLASS_NAME" value="RoomTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in HotelTrivago1" />
+        <item itemvalue="JUnit.RoomTest" />
         <item itemvalue="JUnit.RoomTest.getSize" />
         <item itemvalue="JUnit.RoomTest.getMaxCapacity" />
         <item itemvalue="JUnit.ClientTest" />
-        <item itemvalue="JUnit.HotelTest" />
-        <item itemvalue="JUnit.ReservationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +168,8 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HotelTrivago1$ReservationTest.ic" NAME="ReservationTest Coverage Results" MODIFIED="1579086578003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/HotelTrivago1$HotelTest.ic" NAME="HotelTest Coverage Results" MODIFIED="1579086592188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/HotelTrivago1$All_in_HotelTrivago1.ic" NAME="All in HotelTrivago1 Coverage Results" MODIFIED="1579088385992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/HotelTrivago1$ClientTest.ic" NAME="ClientTest Coverage Results" MODIFIED="1579086601368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/HotelTrivago1$RoomTest.ic" NAME="RoomTest Coverage Results" MODIFIED="1579088296689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
