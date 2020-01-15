@@ -3,7 +3,10 @@
 // (powered by Fernflower decompiler)
 //
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Iterator;
 
 public class Reservation implements Revenue {
@@ -94,6 +97,24 @@ public class Reservation implements Revenue {
     }
 
     public double getRevenue() {
-        return 0.0D;
+        int totalPrice = 0;
+        for(Room room : rooms){
+            totalPrice += room.getPricePerNight();
+        }
+        return totalPrice * daysDifference();
+    }
+
+    public float daysDifference(){
+        SimpleDateFormat myFormat = new SimpleDateFormat("dd-MM-yyyy");
+        float days = 0.0f;
+        try {
+            Date date1 = myFormat.parse(this.startDate);
+            Date date2 = myFormat.parse(this.endDate);
+            long diff = date2.getTime() - date1.getTime();
+            days = (diff / (1000*60*60*24));
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return days;
     }
 }

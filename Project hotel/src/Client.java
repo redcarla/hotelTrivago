@@ -49,6 +49,10 @@ public class Client implements Revenue {
 
 
     public double getRevenue() {
-        return 0.0D;
+        int totalPrice = 0;
+        for(Reservation reservation : reservations){
+            totalPrice += reservation.getRevenue();
+        }
+        return totalPrice;
     }
 }

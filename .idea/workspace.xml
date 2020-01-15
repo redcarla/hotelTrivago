@@ -3,7 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="dcf611c6-3e45-4a48-aad1-0c97ede7dc46" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/RoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/RoomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project hotel/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/src/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project hotel/src/Deluxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/src/Deluxe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project hotel/src/Honeymoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/src/Honeymoon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project hotel/src/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/src/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project hotel/src/Luxury.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/src/Luxury.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project hotel/src/Presidential.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/src/Presidential.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project hotel/src/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/src/Reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project hotel/src/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/src/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project hotel/src/Standard.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/src/Standard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project hotel/tests/ReservationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/tests/ReservationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Deluxe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Deluxe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Honeymoon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Honeymoon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Luxury.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Luxury.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Presidential.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Presidential.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Reservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Reservation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Standard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Standard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/HotelTrivago1/ReservationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/HotelTrivago1/ReservationTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +30,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="158" />
+    <option name="myElementSize" value="144" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,6 +70,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ramon\Documents\github\HotelTrivago1\Project hotel" />
       <recent name="C:\Users\ramon\Documents\github\HotelTrivago1\" />
     </key>
   </component>
@@ -67,7 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in HotelTrivago1">
+  <component name="RunManager" selected="JUnit.ReservationTest.getRevenue">
     <configuration name="All in HotelTrivago1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HotelTrivago1" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,11 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReservationTest.getRevenue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HotelTrivago1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClientTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ReservationTest" />
+      <option name="METHOD_NAME" value="getRevenue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReservationTest.getRevenue" />
         <item itemvalue="JUnit.All in HotelTrivago1" />
         <item itemvalue="JUnit.RoomTest" />
         <item itemvalue="JUnit.RoomTest.getSize" />
         <item itemvalue="JUnit.RoomTest.getMaxCapacity" />
-        <item itemvalue="JUnit.ClientTest" />
       </list>
     </recent_temporary>
   </component>

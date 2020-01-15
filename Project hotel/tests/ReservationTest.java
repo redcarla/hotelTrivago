@@ -75,5 +75,6 @@ class ReservationTest {
 
     @Test
     void getRevenue() {
+        assertEquals(198.0,res1.getRevenue());
     }
 }

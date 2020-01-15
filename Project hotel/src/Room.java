@@ -3,7 +3,7 @@
 // (powered by Fernflower decompiler)
 //
 
-abstract class Room implements Revenue {
+abstract class Room {
     int maxCapacity;
     float size;
     boolean available;

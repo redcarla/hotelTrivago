@@ -8,7 +8,4 @@ public class Honeymoon extends Room {
         super(maxCapacity, size, available, roomNum, pricePerNight);
     }
 
-    public double getRevenue() {
-        return 0.0D;
-    }
 }

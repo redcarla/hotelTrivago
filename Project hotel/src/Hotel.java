@@ -33,4 +33,22 @@ public class Hotel {
     public void addClient(Client newClient) {
         this.clients.add(newClient);
     }
+
+    public double getRevenue(){
+        double totalRevenue = 0.0;
+        for(Client client : clients){
+            totalRevenue += client.getRevenue();
+        }
+        return totalRevenue;
+    }
+
+    public double getRevenueForClient(Client inputClient){
+        double clientRevenue =0.0;
+        for(Client client : clients){
+            if(client == inputClient){
+                clientRevenue = client.getRevenue();
+            }
+        }
+        return clientRevenue;
+    }
 }
