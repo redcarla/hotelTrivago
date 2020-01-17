@@ -1,8 +1,3 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by Fernflower decompiler)
-//
-
 import java.util.ArrayList;
 
 public class program {
@@ -11,7 +6,7 @@ public class program {
     public program() {
     }
 
-    public static void main(String[] args) throws RoomError {
+    public static void main(String[] args) throws RoomException {
         rooms = new ArrayList();
         Luxury b = new Luxury(1, 1.0F, false, 10, 10.0D);
         Luxury c = new Luxury(3, 3.0F, false, 20, 5.0D);

@@ -1,8 +1,3 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by Fernflower decompiler)
-//
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -19,7 +14,7 @@ public class Reservation implements Revenue {
     int noOfAdults;
     int noOfChildren;
 
-    public Reservation(int reservationNum, String startDate, ArrayList<Room> rooms, String endDate, boolean breakfast, boolean insurance, int noOfAdults, int noOfChildren) throws RoomError {
+    public Reservation(int reservationNum, String startDate, ArrayList<Room> rooms, String endDate, boolean breakfast, boolean insurance, int noOfAdults, int noOfChildren) throws RoomException {
         this.reservationNum = reservationNum;
         this.startDate = startDate;
         this.endDate = endDate;
@@ -36,7 +31,7 @@ public class Reservation implements Revenue {
         }
 
         if (totalCapacity < this.noOfAdults + this.noOfChildren) {
-            throw new RoomError("Too many people for the amount of rooms. Please add more rooms.");
+            throw new RoomException("Too many people for the amount of rooms. Please add more rooms.");
         }
     }
 

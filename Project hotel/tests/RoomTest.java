@@ -4,14 +4,11 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class RoomTest {
-
     Room lux = new Luxury(4,2,true,1,99.00);
     Room delux = new Deluxe(3,2,false,1,79.00);
     Room honeymoon = new Honeymoon(2,2,true,1,219.00);
     Room presidential = new Presidential(2,2,false,1,199.00);
     Room standard = new Standard(2,2,true,1,59.00);
-
-
 
     @Test
     void setMaxCapacity() {

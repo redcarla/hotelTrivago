@@ -1,5 +1,4 @@
 
-import org.junit.Before;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -17,9 +16,9 @@ class ReservationTest {
 
         try {
             res1 = new Reservation(1,
-                    "12-01-2020", hotel1.rooms, "14-01-2020",
+                    "12-01-2020", hotel1.getRooms(), "14-01-2020",
                     false, true, 3, 0);
-        } catch (RoomError roomError) {
+        } catch (RoomException roomError) {
             roomError.printStackTrace();
         }
 

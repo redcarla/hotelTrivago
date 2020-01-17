@@ -8,6 +8,7 @@ class HotelTest {
     Hotel hotel1 = new Hotel();
     Client client1 = new Client("Ramon Brakels", "17-11-1997", "Bolsterlaan 23, 7876GA Valthermond");
     Room lux = new Luxury(2,2,false,23,99.00);
+    Reservation res1;
 
 
     @Test
@@ -21,7 +22,7 @@ class HotelTest {
         ArrayList<Room> rooms = new ArrayList<>();
         hotel1.addRoom(lux);
         rooms.add(lux);
-        assertEquals(rooms, hotel1.rooms);
+        assertEquals(rooms, hotel1.getRooms());
     }
 
 
@@ -30,18 +31,48 @@ class HotelTest {
         ArrayList<Client> clients = new ArrayList<>();
         hotel1.addClient(client1);
         clients.add(client1);
-        assertEquals(clients, hotel1.clients);
+        assertEquals(clients, hotel1.getClients());
     }
 
     @Test
-    void tooManyPeopleError() throws RoomError{
+    void tooManyPeopleError() throws RoomException {
         hotel1.addRoom(lux);
         try {
-            Reservation res1 = new Reservation(1,
-                    "12-01-2020", hotel1.rooms, "14-01-2020",
+            res1 = new Reservation(1,
+                    "12-01-2020", hotel1.getRooms(), "14-01-2020",
                     false, true, 5, 0);
-        } catch(RoomError err){
+        } catch(RoomException err){
             assertEquals(err.getMessage(), "Too many people for the amount of rooms. Please add more rooms.");
         }
+    }
+
+    @Test
+    void getRevenue(){
+        hotel1.addRoom(lux);
+        try {
+            res1 = new Reservation(1,
+                    "12-01-2020", hotel1.getRooms(), "14-01-2020",
+                    false, true, 1, 0);
+        } catch(RoomException err){
+            assertEquals(err.getMessage(), "Too many people for the amount of rooms. Please add more rooms.");
+        }
+        client1.addReservation(res1);
+        hotel1.addClient(client1);
+        assertEquals(198.0,hotel1.getRevenue());
+    }
+
+    @Test
+    void getRevenueForClient(){
+        hotel1.addRoom(lux);
+        try {
+            res1 = new Reservation(1,
+                    "12-01-2020", hotel1.getRooms(), "14-01-2020",
+                    false, true, 1, 0);
+        } catch(RoomException err){
+            System.out.println(err.getMessage());
+        }
+        client1.addReservation(res1);
+        hotel1.addClient(client1);
+        assertEquals(198.0,hotel1.getRevenueForClient(client1));
     }
 }

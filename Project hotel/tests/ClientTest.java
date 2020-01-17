@@ -12,10 +12,10 @@ class ClientTest {
     Room lux = new Luxury(3,2,false,1,99.00);
 
     @Test
-    void addReservation() throws RoomError {
+    void addReservation() throws RoomException {
         hotel1.addRoom(lux);
         Reservation res1 = new Reservation(1,
-                "12-01-2020", hotel1.rooms, "14-01-2020",
+                "12-01-2020", hotel1.getRooms(), "14-01-2020",
                 false, true, 3, 0);
         client1.addReservation(res1);
         ArrayList<Reservation> reservations = new ArrayList<>();
