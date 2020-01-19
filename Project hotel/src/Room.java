@@ -1,16 +1,13 @@
 abstract class Room {
-    int maxCapacity;
-    float size;
-    boolean available;
-    int roomNum;
-    double pricePerNight;
+    private int maxCapacity;
+    private boolean available;
+    private int roomNum;
 
-    public Room(int maxCapacity, float size, boolean available, int roomNum, double pricePerNight) {
+    public Room(int maxCapacity, boolean available, int roomNum) {
         this.maxCapacity = maxCapacity;
-        this.size = size;
         this.available = available;
         this.roomNum = roomNum;
-        this.pricePerNight = pricePerNight;
+
     }
 
     public int getMaxCapacity() {
@@ -19,14 +16,6 @@ abstract class Room {
 
     public void setMaxCapacity(int maxCapacity) {
         this.maxCapacity = maxCapacity;
-    }
-
-    public float getSize() {
-        return this.size;
-    }
-
-    public void setSize(float size) {
-        this.size = size;
     }
 
     public boolean isAvailable() {
@@ -45,11 +34,7 @@ abstract class Room {
         this.roomNum = roomNum;
     }
 
-    public double getPricePerNight() {
-        return this.pricePerNight;
-    }
-
-    public void setPricePerNight(double pricePerNight) {
-        this.pricePerNight = pricePerNight;
-    }
+    public abstract double getPricePerNight();
+    public abstract float getSize();
 }
+

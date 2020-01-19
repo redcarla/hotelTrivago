@@ -5,18 +5,18 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ReservationTest {
-    Room lux = new Luxury(3,2,false,1,99.00);
-    Hotel hotel1 = new Hotel();
+    Room lux = new Luxury(3,false,1);
+    Hotel Trivago = new Hotel();
     Reservation res1;
     Client client1 = new Client("Ramon Brakels", "17-11-1997", "Bolsterlaan 23, 7876GA Valthermond");
 
     @BeforeEach
     void beforeEachMethod() {
-        hotel1.addRoom(lux);
+        Trivago.addRoom(lux);
 
         try {
             res1 = new Reservation(1,
-                    "12-01-2020", hotel1.getRooms(), "14-01-2020",
+                    "12-01-2020", Trivago.getRooms(), "14-01-2020",
                     false, true, 3, 0);
         } catch (RoomException roomError) {
             roomError.printStackTrace();
@@ -74,6 +74,6 @@ class ReservationTest {
 
     @Test
     void getRevenue() {
-        assertEquals(198.0,res1.getRevenue());
+        assertEquals(600.0,res1.getRevenue());
     }
 }

@@ -2,39 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcf611c6-3e45-4a48-aad1-0c97ede7dc46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Project hotel/tst/ClientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelTrivago.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HotelTrivago.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project hotel/interfaces/Revenue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/src/Revenue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelTrivago1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HotelTrivago1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project hotel/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/src/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project hotel/src/Deluxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/src/Deluxe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project hotel/src/Honeymoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/src/Honeymoon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project hotel/src/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/src/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project hotel/src/Luxury.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/src/Luxury.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project hotel/src/Presidential.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/src/Presidential.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project hotel/src/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/src/Reservation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project hotel/src/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/src/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project hotel/src/Standard.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/src/Standard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project hotel/src/program.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project hotel/tests/ClientTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project hotel/tests/HotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/tst/HotelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project hotel/tests/ReservationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/tst/ReservationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project hotel/tests/RoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/tst/RoomTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago/Deluxe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago/Deluxe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago/Honeymoon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago/Honeymoon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago/Hotel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago/Luxury.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago/Luxury.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago/Presidential.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago/Presidential.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago/Reservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago/Reservation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago/Revenue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago/Revenue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago/Standard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago/Standard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HotelTrivago/ClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/HotelTrivago/ClientTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HotelTrivago/HotelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/HotelTrivago/HotelTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HotelTrivago/ReservationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/HotelTrivago/ReservationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/HotelTrivago/RoomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/HotelTrivago/RoomTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project hotel/src/program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project hotel/src/program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Deluxe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Deluxe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Honeymoon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Honeymoon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Hotel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Luxury.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Luxury.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Presidential.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Presidential.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Reservation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Reservation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Revenue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Revenue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/RoomError.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/RoomError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/Standard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/Standard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HotelTrivago1/program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HotelTrivago1/program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/HotelTrivago1/ClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/HotelTrivago1/ClientTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/HotelTrivago1/HotelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/HotelTrivago1/HotelTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/HotelTrivago1/ReservationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/HotelTrivago1/ReservationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/HotelTrivago1/RoomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/HotelTrivago1/RoomTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +32,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="170" />
+    <option name="myElementSize" value="144" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,7 +60,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -80,9 +69,6 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
       <recent name="tests" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -106,35 +92,15 @@
   </component>
   <component name="RunManager" selected="JUnit.All in HotelTrivago1">
     <configuration name="All in HotelTrivago1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HotelTrivago" />
+      <module name="HotelTrivago1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotelTest.getRevenue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HotelTrivago" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HotelTest" />
-      <option name="METHOD_NAME" value="getRevenue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HotelTest.getRevenueForClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HotelTrivago" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HotelTest" />
-      <option name="METHOD_NAME" value="getRevenueForClient" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReservationTest.getRevenue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HotelTrivago" />
+      <module name="HotelTrivago1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ReservationTest" />
       <option name="METHOD_NAME" value="getRevenue" />
@@ -144,7 +110,7 @@
       </method>
     </configuration>
     <configuration name="RoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HotelTrivago" />
+      <module name="HotelTrivago1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RoomTest" />
       <option name="TEST_OBJECT" value="class" />
@@ -152,8 +118,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RoomTest.getMaxCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HotelTrivago1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoomTest" />
+      <option name="METHOD_NAME" value="getMaxCapacity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoomTest.getSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HotelTrivago1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoomTest" />
+      <option name="METHOD_NAME" value="getSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="tests in HotelTrivago1" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="HotelTrivago" />
+      <module name="HotelTrivago1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -172,10 +158,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in HotelTrivago1" />
-        <item itemvalue="JUnit.HotelTest.getRevenueForClient" />
-        <item itemvalue="JUnit.HotelTest.getRevenue" />
-        <item itemvalue="JUnit.ReservationTest.getRevenue" />
         <item itemvalue="JUnit.RoomTest" />
+        <item itemvalue="JUnit.ReservationTest.getRevenue" />
+        <item itemvalue="JUnit.RoomTest.getSize" />
+        <item itemvalue="JUnit.RoomTest.getMaxCapacity" />
       </list>
     </recent_temporary>
   </component>
@@ -189,8 +175,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578991383064</updated>
-      <workItem from="1579261909712" duration="4811000" />
-      <workItem from="1579454441778" duration="625000" />
+      <workItem from="1579162640613" duration="1112000" />
+      <workItem from="1579166324166" duration="1177000" />
     </task>
     <servers />
   </component>
@@ -212,8 +198,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HotelTrivago1$HotelTest.ic" NAME="HotelTest Coverage Results" MODIFIED="1579086592188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/hotelTrivago$All_in_HotelTrivago1.ic" NAME="All in HotelTrivago1 Coverage Results" MODIFIED="1579310165128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/HotelTrivago1$All_in_HotelTrivago1.ic" NAME="All in HotelTrivago1 Coverage Results" MODIFIED="1579254647201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/hotelTrivago$All_in_HotelTrivago1.ic" NAME="All in HotelTrivago1 Coverage Results" MODIFIED="1579163627885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/HotelTrivago1$All_in_HotelTrivago1.ic" NAME="All in HotelTrivago1 Coverage Results" MODIFIED="1579088385992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/HotelTrivago1$ReservationTest.ic" NAME="ReservationTest Coverage Results" MODIFIED="1579086578003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/HotelTrivago1$RoomTest.ic" NAME="RoomTest Coverage Results" MODIFIED="1579088296689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/HotelTrivago1$ClientTest.ic" NAME="ClientTest Coverage Results" MODIFIED="1579086601368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

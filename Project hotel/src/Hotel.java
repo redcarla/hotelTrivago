@@ -2,8 +2,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class Hotel {
-    private ArrayList<Room> rooms = new ArrayList();
-    private ArrayList<Client> clients = new ArrayList();
+    private ArrayList<Room> rooms = new ArrayList<Room>();
+    private ArrayList<Client> clients = new ArrayList<Client>();
 
     public Hotel() {
     }

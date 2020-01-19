@@ -5,14 +5,14 @@ import java.util.Date;
 import java.util.Iterator;
 
 public class Reservation implements Revenue {
-    int reservationNum;
-    String startDate;
-    String endDate;
-    boolean breakfast;
-    boolean insurance;
-    ArrayList<Room> rooms;
-    int noOfAdults;
-    int noOfChildren;
+    private int reservationNum;
+    private String startDate;
+    private String endDate;
+    private boolean breakfast;
+    private boolean insurance;
+    private ArrayList<Room> rooms;
+    private int noOfAdults;
+    private int noOfChildren;
 
     public Reservation(int reservationNum, String startDate, ArrayList<Room> rooms, String endDate, boolean breakfast, boolean insurance, int noOfAdults, int noOfChildren) throws RoomException {
         this.reservationNum = reservationNum;

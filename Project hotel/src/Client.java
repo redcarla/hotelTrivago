@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 
 public class Client implements Revenue {
-    String clientName;
-    String dateOfBirth;
-    String address;
+    private String clientName;
+    private String dateOfBirth;
+    private String address;
     ArrayList<Reservation> reservations;
 
     public Client(String clientName, String dateOfBirth, String address) {

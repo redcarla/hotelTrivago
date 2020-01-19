@@ -4,11 +4,11 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class RoomTest {
-    Room lux = new Luxury(4,2,true,1,99.00);
-    Room delux = new Deluxe(3,2,false,1,79.00);
-    Room honeymoon = new Honeymoon(2,2,true,1,219.00);
-    Room presidential = new Presidential(2,2,false,1,199.00);
-    Room standard = new Standard(2,2,true,1,59.00);
+    Room lux = new Luxury(4,true,1);
+    Room delux = new Deluxe(3,false, 3);
+    Room honeymoon = new Honeymoon(2,true,21);
+    Room presidential = new Presidential(2,false,4);
+    Room standard = new Standard(2,true,59);
 
     @Test
     void setMaxCapacity() {
@@ -28,17 +28,13 @@ class RoomTest {
 
     @Test
     void getSize() {
-        lux.setSize(14.8f);
-        delux.setSize(9.2f);
-        honeymoon.setSize(9.9f);
-        presidential.setSize(50.2f);
-        standard.setSize(8.2f);
 
-        assertEquals(14.8f,lux.getSize());
-        assertEquals(9.2f,delux.getSize());
-        assertEquals(9.9f,honeymoon.getSize());
-        assertEquals(50.2f,presidential.getSize());
-        assertEquals(8.2f,standard.getSize());
+
+        assertEquals(18.0f,lux.getSize());
+        assertEquals(15.0f,delux.getSize());
+        assertEquals(20.0f,honeymoon.getSize());
+        assertEquals(100.0f,presidential.getSize());
+        assertEquals(12.0f,standard.getSize());
     }
 
 
@@ -83,16 +79,11 @@ class RoomTest {
 
     @Test
     void setPricePerNight() {
-        lux.setPricePerNight(200.0);
-        delux.setPricePerNight(150.0);
-        honeymoon.setPricePerNight(280.0);
-        presidential.setPricePerNight(500.0);
-        standard.setPricePerNight(100.0);
 
-        assertEquals(200.0,lux.getPricePerNight());
-        assertEquals(150.0,delux.getPricePerNight());
-        assertEquals(280.0,honeymoon.getPricePerNight());
-        assertEquals(500.0,presidential.getPricePerNight());
+        assertEquals(300.0,lux.getPricePerNight());
+        assertEquals(200.0,delux.getPricePerNight());
+        assertEquals(500.0,honeymoon.getPricePerNight());
+        assertEquals(1000.0,presidential.getPricePerNight());
         assertEquals(100.0,standard.getPricePerNight());
     }
 }
